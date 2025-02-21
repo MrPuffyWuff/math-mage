@@ -11,6 +11,19 @@ config_version=5
 [application]
 
 config/name="Mathematical Mage"
-run/main_scene="res://scenes/world.tscn"
+run/main_scene="res://MAIN (global)/world.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=2
+window/stretch/mode="viewport"
+window/stretch/aspect="keep_height"
+
+[layer_names]
+
+2d_physics/layer_1="Terrain"
+2d_physics/layer_2="Player"
