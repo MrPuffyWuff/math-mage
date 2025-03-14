@@ -1,9 +1,9 @@
 extends CharacterBody2D
 
-@export var Velocity: Vector2 = Vector2(0, 0)
-var speed: int = 300
-var gravity: int = 50
-var jumpPower: int = 1000
+var Velocity: Vector2 = Vector2(0, 0)
+@export var speed: int = 300
+@export var gravity: int = 50
+@export var jumpPower: int = 1000
 
 func _ready() -> void:
 	pass

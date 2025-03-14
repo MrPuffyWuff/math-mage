@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://bu7s7whvibh3c"]
+
+[ext_resource type="Texture2D" uid="uid://sfkgtw4iasld" path="res://ASSETS/black_dot.png" id="1_1rssl"]
+[ext_resource type="Script" path="res://MAGIC/generic_magic_spell.gd" id="1_igxo3"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_83iep"]
+radius = 6.0
+
+[node name="GenericMagicSpell" type="Area2D"]
+script = ExtResource("1_igxo3")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_1rssl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_83iep")

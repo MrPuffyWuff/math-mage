@@ -9,6 +9,7 @@ size = Vector2(126, 257)
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 2
 script = ExtResource("1_cklvo")
+speed = 500
 
 [node name="AnimatedSprite2D" type="Sprite2D" parent="."]
 scale = Vector2(1, 2)
